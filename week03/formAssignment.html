@@ -13,33 +13,33 @@ Created by: Greg Cudzich on 2021-09-11 -->
     
     <form method="GET" action="http://acsg540.com/~ubuntu/acsg-540-2021f-examples/week3/list_data.php">
         <label>Name: <input id="userNameActual" name="userNameActual" type="text"></label>
-    <br>
-    <br>
+        <br>
+        <br>
+        
+        Lightbulb Inventory:
+        <br>
+        <label><input type="checkbox" name="lightBulbChoices[]" value="four25WattStandard"/> Four 25-watt light bulbs for $2.39</label>
+        <br>
+        <label><input type="checkbox" name="lightBulbChoices[]" value="eight25WattStandard"/> Eight 25-watt light bulbs for $4.29</label>
+        <br>
+        <label><input type="checkbox" name="lightBulbChoices[]" value="four25WattLongLife"/> Four 25-watt long-life light bulbs for $3.95</label>
+        <br>
+        <label><input type="checkbox" name="lightBulbChoices[]" value="eight25WattLongLife"/> Eight 25-watt long-life light bulbs for $7.49</label>
+        <br>
+        <br>
 
-    Lightbulb Inventory:
-    <br>
-    <label><input type="checkbox" name="lightBulbChoices[]" value="four25WattStandard" /> Four 25-watt light bulbs for $2.39</label>
-    <br>
-    <label><input type="checkbox" name="lightBulbChoices[]" value="eight25WattStandard" /> Eight 25-watt light bulbs for $4.29</label>
-    <br>
-    <label><input type="checkbox" name="lightBulbChoices[]" value="four25WattLongLife" /> Four 25-watt long-life light bulbs for $3.95</label>
-    <br>
-    <label><input type="checkbox" name="lightBulbChoices[]" value="eight25WattLongLife" /> Eight 25-watt long-life light bulbs for $7.49</label>
-    <br>
-    <br>
+        Payment Type:
+        <br>
+        <label><input type="radio" name="paymentType" value="visa"/> Visa</label>
+        <br>
+        <label><input type="radio" name="paymentType" value="masterCard"/> Master Card</label>
+        <br>
+        <label><input type="radio" name="paymentType" value="discover"/> Discover</label>
+        <br>
+        <br>
 
-    Payment Type:
-    <br>
-    <label><input type="radio" name="paymentType" value="visa" /> Visa</label>
-    <br>
-    <label><input type="radio" name="paymentType" value="masterCard" /> Master Card</label>
-    <br>
-    <label><input type="radio" name="paymentType" value="discover" /> Discover</label>
-    <br>
-    <br>
-
-    <input type="reset" value="Reset"/>
-    <input type="submit" value="Submit"/>
+        <input type="reset" value="Reset"/>
+        <input type="submit" value="Submit"/>
     </form>
 </body>
 </html>
