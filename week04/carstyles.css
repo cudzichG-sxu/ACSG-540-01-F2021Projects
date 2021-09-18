@@ -1,0 +1,18 @@
+.outerList {
+    list-style: upper-roman;
+}
+.middleList {
+    list-style: upper-alpha;
+}
+.innerList {
+    list-style: decimal;
+}
+.compactList {
+    background-color: pink;
+}
+.midsizeList {
+    background-color: blue;
+}
+.sportsList {
+    background-color: red;
+}
