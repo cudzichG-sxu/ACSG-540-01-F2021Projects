@@ -1,0 +1,19 @@
+td {
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.tr1 {
+      background-color: red;
+}
+.tr2 {
+    background-color: green;
+}
+.tr3 {
+    background-color: blue;
+}
+button {
+    text-align: center;
+}
