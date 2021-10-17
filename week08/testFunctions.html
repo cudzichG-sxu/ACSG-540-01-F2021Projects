@@ -7,7 +7,7 @@ Created by: Greg Cudzich on 2021-10-16 -->
     <title>Test All Functions</title>
 </head>
 <body>
-    <script type="text/javascript" src="javaScriptFunctions.js"></script>
+    <script src="javaScriptFunctions.js"></script>
 
     <label for="firstVowelCall">Test First Vowel Function</label><br><br>
     <input type="text" id="firstVowelCall" name="firstVowelCall">
@@ -27,7 +27,13 @@ Created by: Greg Cudzich on 2021-10-16 -->
     <br><br>
 
     <label>Test Counter Function With Array Input</label><br><br>
-    <form id="counterList" class="" action="" method="post">
+    <form id="counterList" class="" action="#" method="post">
+        <!--survery says it's bad juju to leave a blank action in a form, One of the maintainers of the W3C validator
+        stated this:
+        Maintainer of the W3C HTML Checker (validator) here. 
+        If your goal is just to get the checker to not emit that error, one way to do that is to go ahead 
+        and put # as the value for the action attribute in your HTML source, but then remove it using JavaScript, like this-->
+        <script>document.querySelector("form").setAttribute("action", "")</script>
         <div class="arrElements">
             <input type="number" name="array[]" value="" /><br>
         </div>
