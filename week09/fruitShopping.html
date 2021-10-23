@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--fruitShopping.html, purpose of document is exercises 5.3 for ACSG-540-01 class at Saint Xavier University
+Created by: Greg Cudzich on 2021-10-23 -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Freddy's Fruits</title>
+</head>
+<body>
+    <p>Please select which fruits you would like to purchase!</p>
+    <script src="fruitShoppingLogic.js"></script>
+    <form id="fruitForm" method="GET" action="#">
+        <script>document.querySelector("form").setAttribute("action", "")</script>
+        Fruit Inventory:
+        <br>
+        <br>
+        <label><input type="checkbox" value="0.59" onclick="calculateRawCost()"/> Apple, $0.59</label>
+        <br>
+        <label><input type="checkbox" value="0.49" onclick="calculateRawCost()"/> Orange, $0.49</label>
+        <br>
+        <label><input type="checkbox" value="0.39" onclick="calculateRawCost()"/> Banana, $0.39</label>
+        <br>
+        <br>
+        <label>
+            Total *Minus Tax
+            <input value="$0.00" readonly="readonly" type="text" id="totalCostMinusTax"/>
+        </label>
+        <br>
+        <br>
+
+        <input type="submit" value="Submit" onclick="return calculateCostPlusTax()"/>
+    </form>
+</body>
+</html>
