@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--index.html, purpose of document is exercises 6.5 for ACSG-540-01 class at Saint Xavier University
+Created by: Greg Cudzich on 2021-10-30 -->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Change Image</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <script src="changeImage.js"></script>
+    <div class="outerElement">
+        <h4>*click in order of 1, 2, 3 for better immersion</h4>
+        <h3 class="centerTitle">Web developers when they hear someone talking about web development in public</h3>
+        <table>
+            <tr>
+                <td>
+                    <div>
+                        <div>
+                            <img class="imageActual" id="images" src="./images/guyRotatingOne.PNG"
+                                alt="Oh no! This image is unavailable!" height="200" width="150" />
+                        </div>
+                        <div class="imgButton">
+                            <button class="imgButton" id="1" onclick="changeImage(this);">1</button>
+                            <button class="imgButton" id="2" onclick="changeImage(this);">2</button>
+                            <button class="imgButton" id="3" onclick="changeImage(this);">3</button>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
