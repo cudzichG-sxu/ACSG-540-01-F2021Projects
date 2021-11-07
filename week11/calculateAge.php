@@ -5,7 +5,7 @@ Created by: Greg Cudzich on 2021-11-07 -->
 <head>
     <meta charset="utf-8" />
     <title>Calculation of your birth</title>
-<head>
+</head>
 <body>
     <h3>Enter your name and date of birth.</h3>
     <h4>*fill out all fields</h4>
