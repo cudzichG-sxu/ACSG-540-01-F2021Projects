@@ -1,0 +1,27 @@
+html { 
+    background-color: darkgray;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+.title {
+    display: inline !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: left;
+    color: white;
+    text-align: left;
+    font-size: 17px;
+
+}
+
+.topnav input[type=text], input[type=button] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
