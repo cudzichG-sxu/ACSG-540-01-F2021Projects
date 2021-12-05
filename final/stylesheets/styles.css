@@ -17,11 +17,17 @@ html {
 
 }
 
-.topnav input[type=text], input[type=button] {
+.topnav input[type=text] {
     float: right;
     padding: 6px;
     border: none;
     margin-top: 8px;
-    margin-right: 16px;
+    margin-right: 10px;
     font-size: 17px;
+  }
+
+  .searchBtn {
+      float: right;
+      margin-top: 8px;
+      margin-right: 6px;
   }
